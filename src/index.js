@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
+// import App from './App';
+// import AppLang from './lang-context/AppLang';
+import RegistrationForm from './RegistrationForm/RegistrationForm';
 
 ReactDOM.render(
-<App />,
-document.getElementById('root'));
+  <RegistrationForm />,
+  document.getElementById('root')
+);
